@@ -1,0 +1,162 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: akonadi-search
+Source: http://download.kde.org/pub/kde/unstable/applications/
+
+Files: *
+Copyright: 2012-2014 Vishesh Handa <me@vhanda.in>
+           2014 Laurent Montel <montel@kde.org>
+           2014 Christian Mollekopf <mollekopf@kolabsys.com>
+License: LGPL-2.1+3+KDEeV
+
+Files: agent/index.cpp
+       agent/scheduler.h
+       agent/collectionupdatejob.h
+       agent/collectionupdatejob.cpp
+       agent/emailindexer.h
+       agent/collectionindexingjob.cpp
+       agent/index.h
+       agent/abstractindexer.h
+       agent/contactindexer.h
+       agent/collectionindexer.h
+       agent/collectionindexer.cpp
+       agent/collectionindexingjob.h
+       agent/abstractindexer.cpp
+       agent/scheduler.cpp
+Copyright: 2014 Christian Mollekopf <mollekopf@kolabsys.com>
+           2013 Vishesh Handa <me@vhanda.in>
+           2013 Daniel Vrátil <dvratil@redhat.com>
+License: GPL-2+3+KDEeV
+
+Files: agent/akonadi_indexer_agent_debug.cpp
+       agent/akonadi_indexer_agent_debug.h
+       akonadiplugin/akonadiplugin_indexer_debug.h
+       akonadiplugin/akonadiplugin_indexer_debug.cpp
+       xapian/akonadi_search_xapian_debug.h
+       xapian/akonadi_search_xapian_debug.cpp
+Copyright: 2015 Laurent Montel <montel@kde.org>
+License: LGPL-2+
+
+Files: agent/priority.h
+       agent/priority.cpp
+Copyright: 2008 Sebastian Trueg <trueg@kde.org>
+           2006-2007 Jos van den Oever <jos@vandenoever.info>
+License: LGPL-2
+
+Files: xapian/xapiantermgenerator.cpp
+       xapian/xapianqueryparser.h
+       xapian/xapiandocument.cpp
+       xapian/xapiandatabase.cpp
+       xapian/xapiantermgenerator.h
+       xapian/autotests/termgeneratortest.cpp
+       xapian/autotests/queryparsertest.cpp
+       xapian/autotests/queryparsertest.h
+       xapian/autotests/termgeneratortest.h
+       xapian/xapiandocument.h
+       xapian/xapiandatabase.h
+       xapian/xapianqueryparser.cpp
+Copyright: 2014 Vishesh Handa <me@vhanda.in>
+License: LGPL-2.1+
+
+Files: debian/*
+Copyright: 2015 Harald Sitter <sitter@kde.org>
+License: LGPL-2.1+3+KDEeV
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+  Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
+ complete text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2.1+3+KDEeV
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1',
+ likewise, the complete text of the GNU Lesser General Public
+ License version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
