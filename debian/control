@@ -27,7 +27,17 @@ Package: libkf5akonadisearch-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5akonadisearchpim5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5akonadi-dev,
+         libkf5akonadimime-dev,
+         libkf5akonadisearchcore5 (= ${binary:Version}),
+         libkf5akonadisearchpim5 (= ${binary:Version}),
+         libkf5akonadiserver-dev,
+         libkf5calendarcore-dev,
+         libkf5contacts-dev,
+         libkf5coreaddons-dev,
+         libkf5mime-dev,
+         qtbase5-dev,
+         ${misc:Depends}
 Description: Akonadi search library - development files
  Library used to search in the Akonadi PIM data server.
  .
