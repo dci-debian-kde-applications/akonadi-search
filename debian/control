@@ -5,6 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules,
+               libboost-dev,
                libkf5akonadi-dev,
                libkf5akonadimime-dev,
                libkf5akonadiserver-dev,
@@ -87,7 +88,7 @@ Description: Akonadi search xapian library
 Package: libkf5akonadisearchcore5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5akonadisearch-data (= ${binary:Version}),
+Depends: libkf5akonadisearch-data (= ${source:Version}),
          libkf5akonadisearch-plugins (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
