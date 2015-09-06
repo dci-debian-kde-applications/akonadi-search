@@ -1,0 +1,5 @@
+usr/lib/*/qt5/plugins/akonadi/akonadi_search_plugin.so
+usr/lib/*/qt5/plugins/akonadi/calendarsearchstore.so
+usr/lib/*/qt5/plugins/akonadi/contactsearchstore.so
+usr/lib/*/qt5/plugins/akonadi/emailsearchstore.so
+usr/lib/*/qt5/plugins/akonadi/notesearchstore.so
