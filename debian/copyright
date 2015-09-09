@@ -27,21 +27,6 @@ Copyright: 2014 Christian Mollekopf <mollekopf@kolabsys.com>
            2013 Daniel Vrátil <dvratil@redhat.com>
 License: GPL-2+3+KDEeV
 
-Files: agent/akonadi_indexer_agent_debug.cpp
-       agent/akonadi_indexer_agent_debug.h
-       akonadiplugin/akonadiplugin_indexer_debug.h
-       akonadiplugin/akonadiplugin_indexer_debug.cpp
-       xapian/akonadi_search_xapian_debug.h
-       xapian/akonadi_search_xapian_debug.cpp
-Copyright: 2015 Laurent Montel <montel@kde.org>
-License: LGPL-2+
-
-Files: agent/priority.h
-       agent/priority.cpp
-Copyright: 2008 Sebastian Trueg <trueg@kde.org>
-           2006-2007 Jos van den Oever <jos@vandenoever.info>
-License: LGPL-2
-
 Files: xapian/xapiantermgenerator.cpp
        xapian/xapianqueryparser.h
        xapian/xapiandocument.cpp
@@ -56,6 +41,21 @@ Files: xapian/xapiantermgenerator.cpp
        xapian/xapianqueryparser.cpp
 Copyright: 2014 Vishesh Handa <me@vhanda.in>
 License: LGPL-2.1+
+
+Files: agent/akonadi_indexer_agent_debug.cpp
+       agent/akonadi_indexer_agent_debug.h
+       akonadiplugin/akonadiplugin_indexer_debug.h
+       akonadiplugin/akonadiplugin_indexer_debug.cpp
+       xapian/akonadi_search_xapian_debug.h
+       xapian/akonadi_search_xapian_debug.cpp
+Copyright: 2015 Laurent Montel <montel@kde.org>
+License: LGPL-2+
+
+Files: agent/priority.h
+       agent/priority.cpp
+Copyright: 2008 Sebastian Trueg <trueg@kde.org>
+           2006-2007 Jos van den Oever <jos@vandenoever.info>
+License: LGPL-2
 
 Files: debian/*
 Copyright: 2015 Harald Sitter <sitter@kde.org>
