@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1+git20150917.2318 amd64 i386
 libKF5AkonadiSearchPIM.so.5 libkf5akonadisearchpim5 #MINVER#
  (optional=templinst)_ZN6Xapian5QueryC1IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
  (optional=templinst)_ZN6Xapian5QueryC2IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
@@ -19,8 +19,6 @@ libKF5AkonadiSearchPIM.so.5 libkf5akonadisearchpim5 #MINVER#
  _ZN7Akonadi6Search3PIM10EmailQuery5setToERK11QStringList@Base 15.07.90
  _ZN7Akonadi6Search3PIM10EmailQuery6addBccERK7QString@Base 15.07.90
  _ZN7Akonadi6Search3PIM10EmailQuery6setBccERK11QStringList@Base 15.07.90
- _ZN7Akonadi6Search3PIM10EmailQuery7PrivateC1Ev@Base 15.07.90
- _ZN7Akonadi6Search3PIM10EmailQuery7PrivateC2Ev@Base 15.07.90
  _ZN7Akonadi6Search3PIM10EmailQuery7addFromERK7QString@Base 15.07.90
  _ZN7Akonadi6Search3PIM10EmailQuery7matchesERK7QString@Base 15.07.90
  _ZN7Akonadi6Search3PIM10EmailQuery7setFromERK7QString@Base 15.07.90
