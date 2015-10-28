@@ -4,6 +4,7 @@ akonadi-search (4:15.08.2-0ubuntu2) UNRELEASED; urgency=medium
   * Add new package for AkonadiSearchDebug
   * Add new files for above and krunner features. 
   * Add new symbols for akonadisearchdebug 
+  * Add missing new files. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 27 Oct 2015 19:40:57 -0700
 
