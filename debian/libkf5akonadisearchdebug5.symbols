@@ -1,3 +1,4 @@
+# SymbolsHelper-Confirmed: 15.08.2 amd64
 libKF5AkonadiSearchDebug.so.5 libkf5akonadisearchdebug5 #MINVER#
  _ZN7Akonadi6Search24AkonadiSearchDebugDialog10readConfigEv@Base 15.08.2
  _ZN7Akonadi6Search24AkonadiSearchDebugDialog10saveTextAsERK7QStringS4_@Base 15.08.2
@@ -40,7 +41,7 @@ libKF5AkonadiSearchDebug.so.5 libkf5akonadisearchdebug5 #MINVER#
  _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBoxD0Ev@Base 15.08.2
  _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBoxD1Ev@Base 15.08.2
  _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBoxD2Ev@Base 15.08.2
- _ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.08.2
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.08.2
  _ZNK7Akonadi6Search24AkonadiSearchDebugDialog10metaObjectEv@Base 15.08.2
  _ZNK7Akonadi6Search24AkonadiSearchDebugWidget10metaObjectEv@Base 15.08.2
  _ZNK7Akonadi6Search24AkonadiSearchDebugWidget9plainTextEv@Base 15.08.2
@@ -56,9 +57,6 @@ libKF5AkonadiSearchDebug.so.5 libkf5akonadisearchdebug5 #MINVER#
  _ZTVN7Akonadi6Search24AkonadiSearchDebugDialogE@Base 15.08.2
  _ZTVN7Akonadi6Search24AkonadiSearchDebugWidgetE@Base 15.08.2
  _ZTVN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBoxE@Base 15.08.2
- _ZThn16_N7Akonadi6Search24AkonadiSearchDebugDialogD0Ev@Base 15.08.2
- _ZThn16_N7Akonadi6Search24AkonadiSearchDebugDialogD1Ev@Base 15.08.2
- _ZThn16_N7Akonadi6Search24AkonadiSearchDebugWidgetD0Ev@Base 15.08.2
- _ZThn16_N7Akonadi6Search24AkonadiSearchDebugWidgetD1Ev@Base 15.08.2
- _ZThn16_N7Akonadi6Search36AkonadiSearchDebugSearchPathComboBoxD0Ev@Base 15.08.2
- _ZThn16_N7Akonadi6Search36AkonadiSearchDebugSearchPathComboBoxD1Ev@Base 15.08.2
+ (c++)"non-virtual thunk to Akonadi::Search::AkonadiSearchDebugDialog::~AkonadiSearchDebugDialog()@Base" 15.08.2
+ (c++)"non-virtual thunk to Akonadi::Search::AkonadiSearchDebugSearchPathComboBox::~AkonadiSearchDebugSearchPathComboBox()@Base" 15.08.2
+ (c++)"non-virtual thunk to Akonadi::Search::AkonadiSearchDebugWidget::~AkonadiSearchDebugWidget()@Base" 15.08.2
