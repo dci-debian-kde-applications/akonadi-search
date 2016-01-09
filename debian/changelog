@@ -14,6 +14,9 @@ akonadi-search (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * Require libkf5akonadi-dev >= 15.12 
 
+  [ Scarlett Clark ]
+  * Loosen up the so version wildcard to fix install searchdebug.
+
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:21:55 +0000
 
 akonadi-search (4:15.08.2-0ubuntu1) wily; urgency=medium
