@@ -16,6 +16,7 @@ akonadi-search (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Loosen up the so version wildcard to fix install searchdebug.
+  * No changes, trigger rebuild. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:21:55 +0000
 
