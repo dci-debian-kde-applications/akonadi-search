@@ -7,16 +7,14 @@ akonadi-search (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
   * Add new symbols for akonadisearchdebug 
   * Add missing new files. 
   * Redo symbols file with pkgkde-symbolshelper. 
+  * Loosen up the so version wildcard to fix install searchdebug.
 
   [ Clive Johnston ]
   * New upstream release
 
   [ Philip Muškovac ]
   * Require libkf5akonadi-dev >= 15.12 
-
-  [ Scarlett Clark ]
-  * Loosen up the so version wildcard to fix install searchdebug.
-  * No changes, trigger rebuild. 
+  * Merge with debian git master
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:21:55 +0000
 
@@ -32,6 +30,31 @@ akonadi-search (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:02:20 +0100
+
+akonadi-search (15.08.3-1) experimental; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:37 +0100
+
+akonadi-search (15.08.2-1) experimental; urgency=medium
+
+  * New upstream release (15.08.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Oct 2015 08:07:13 +0200
+
+akonadi-search (15.08.1-1) experimental; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:31 +0200
+
+akonadi-search (15.08.0-1) experimental; urgency=medium
+
+  * Initial Debian release.
+  * New patch: disable_failing_tests
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 21:14:21 +0200
 
 akonadi-search (4:15.08.0-0ubuntu1) wily; urgency=medium
 
