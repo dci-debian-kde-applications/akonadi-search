@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.08.2 amd64
+# SymbolsHelper-Confirmed: 4:15.12.1 amd64 i386
 libKF5AkonadiSearchDebug.so.5 libkf5akonadisearchdebug5 #MINVER#
  _ZN7Akonadi6Search24AkonadiSearchDebugDialog10readConfigEv@Base 15.08.2
  _ZN7Akonadi6Search24AkonadiSearchDebugDialog10saveTextAsERK7QStringS4_@Base 15.08.2
@@ -32,9 +32,12 @@ libKF5AkonadiSearchDebug.so.5 libkf5akonadisearchdebug5 #MINVER#
  _ZN7Akonadi6Search24AkonadiSearchDebugWidgetD1Ev@Base 15.08.2
  _ZN7Akonadi6Search24AkonadiSearchDebugWidgetD2Ev@Base 15.08.2
  _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBox10initializeEv@Base 15.08.2
+ _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBox10searchPathEv@Base 4:15.12.1
  _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.08.2
  _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBox11qt_metacastEPKc@Base 15.08.2
+ _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBox12pathFromEnumENS1_10SearchTypeE@Base 4:15.12.1
  _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBox13setSearchTypeENS1_10SearchTypeE@Base 15.08.2
+ _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBox16defaultLocationsERK7QString@Base 4:15.12.1
  _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBox16staticMetaObjectE@Base 15.08.2
  _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBoxC1EP7QWidget@Base 15.08.2
  _ZN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBoxC2EP7QWidget@Base 15.08.2
@@ -46,8 +49,6 @@ libKF5AkonadiSearchDebug.so.5 libkf5akonadisearchdebug5 #MINVER#
  _ZNK7Akonadi6Search24AkonadiSearchDebugWidget10metaObjectEv@Base 15.08.2
  _ZNK7Akonadi6Search24AkonadiSearchDebugWidget9plainTextEv@Base 15.08.2
  _ZNK7Akonadi6Search36AkonadiSearchDebugSearchPathComboBox10metaObjectEv@Base 15.08.2
- _ZNK7Akonadi6Search36AkonadiSearchDebugSearchPathComboBox10searchPathEv@Base 15.08.2
- _ZNK7Akonadi6Search36AkonadiSearchDebugSearchPathComboBox12pathFromEnumENS1_10SearchTypeE@Base 15.08.2
  _ZTIN7Akonadi6Search24AkonadiSearchDebugDialogE@Base 15.08.2
  _ZTIN7Akonadi6Search24AkonadiSearchDebugWidgetE@Base 15.08.2
  _ZTIN7Akonadi6Search36AkonadiSearchDebugSearchPathComboBoxE@Base 15.08.2

@@ -15,6 +15,7 @@ akonadi-search (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * Require libkf5akonadi-dev >= 15.12 
   * Merge with debian git master
+  * Refresh symbols
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:21:55 +0000
 
