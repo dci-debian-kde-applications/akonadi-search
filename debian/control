@@ -33,6 +33,7 @@ Multi-Arch: foreign
 Depends: libkf5akonadi-dev,
          libkf5akonadimime-dev (>= 4.87.0~),
          libkf5akonadisearchcore5 (= ${binary:Version}),
+         libkf5akonadisearchdebug5 (= ${binary:Version}),
          libkf5akonadisearchpim5 (= ${binary:Version}),
          libkf5akonadiserver-dev (>= 5.0.51~),
          libkf5calendarcore-dev (>= 4.81.0~),
@@ -95,6 +96,13 @@ Depends: libkf5akonadisearch-data (>= ${source:Version}),
 Recommends: libkf5akonadisearch-bin,
             libkf5akonadisearch-plugins (= ${binary:Version})
 Description: Akonadi search core library
+ Internal library used to search in the Akonadi PIM data server.
+
+Package: libkf5akonadisearchdebug5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Akonadi search debug library
  Internal library used to search in the Akonadi PIM data server.
 
 Package: libkf5akonadisearch-dbg
