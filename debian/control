@@ -104,15 +104,3 @@ Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Akonadi search debug library
  Internal library used to search in the Akonadi PIM data server.
-
-Package: libkf5akonadisearch-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5akonadisearchcore5 (= ${binary:Version}) | libkf5akonadisearchxapian5 (= ${binary:Version}) | libkf5akonadisearchpim5 (= ${binary:Version}),
-         ${misc:Depends}
-Description: Akonadi search library - debug symbols
- Library used to search in the Akonadi PIM data server.
- .
- This package contains the debug symbols.
