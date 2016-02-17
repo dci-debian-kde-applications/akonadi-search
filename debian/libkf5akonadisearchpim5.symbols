@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.1 amd64 i386
+# SymbolsHelper-Confirmed: 15.12.1 amd64
 libKF5AkonadiSearchPIM.so.5 libkf5akonadisearchpim5 #MINVER#
  (optional=templinst)_ZN6Xapian5QueryC1IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
  (optional=templinst)_ZN6Xapian5QueryC2IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
@@ -66,7 +66,7 @@ libKF5AkonadiSearchPIM.so.5 libkf5akonadisearchpim5 #MINVER#
  _ZN7Akonadi6Search3PIM16ContactCompleter8completeEv@Base 15.07.90
  _ZN7Akonadi6Search3PIM16ContactCompleterC1ERK7QStringi@Base 15.07.90
  _ZN7Akonadi6Search3PIM16ContactCompleterC2ERK7QStringi@Base 15.07.90
- _ZN7Akonadi6Search3PIM5Query15defaultLocationERK7QString@Base 4:15.12.1
+ _ZN7Akonadi6Search3PIM5Query15defaultLocationERK7QString@Base 15.12.1
  _ZN7Akonadi6Search3PIM5Query8fromJSONERK10QByteArray@Base 15.07.90
  _ZN7Akonadi6Search3PIM5QueryC1Ev@Base 15.07.90
  _ZN7Akonadi6Search3PIM5QueryC2Ev@Base 15.07.90

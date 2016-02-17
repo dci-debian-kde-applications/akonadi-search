@@ -1,6 +1,6 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
-         dbus-x11, xvfb, xauth, akonadi-backend-sqlite
+         dbus-x11, xvfb, xauth, akonadi-backend-sqlite, xserver-xephyr
 Restrictions: build-needed
 
 Tests: acc
