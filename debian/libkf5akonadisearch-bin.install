@@ -1,4 +1,2 @@
 usr/bin/akonadi_indexing_agent
 usr/share/akonadi/agents/akonadiindexingagent.desktop
-usr/share/kservices5/plasma-krunner-pimcontacts.desktop
-usr/share/kservices5/plasma-krunner-pimcontacts_config.desktop
