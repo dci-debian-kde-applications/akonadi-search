@@ -1,3 +1,12 @@
+akonadi-search (15.12.3-1~1.gbpe48668) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e4866800438d9a76ae1cec03abb76b6eebd5d8fa **
+
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:07:58 +0200
+
 akonadi-search (15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
