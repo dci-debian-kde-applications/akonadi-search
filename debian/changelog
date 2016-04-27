@@ -1,13 +1,15 @@
-akonadi-search (16.04.0-1~1.gbp6e68ab) UNRELEASED; urgency=medium
+akonadi-search (16.04.0-1~2.gbpd73a56) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6e68ab7be2a45f54c91199e93f11c024ec2276d4 **
+  ** SNAPSHOT build @d73a56d510d541c5951f633c99fa86442dad83f6 **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 03:07:14 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 27 Apr 2016 10:14:50 +0200
 
 akonadi-search (15.12.1-1) experimental; urgency=medium
 
