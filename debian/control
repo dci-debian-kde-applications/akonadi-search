@@ -30,7 +30,7 @@ Package: libkf5akonadisearch-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5akonadi-dev (>= 5.2.0~),
+Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          libkf5akonadimime-dev (>= 5.2.0~),
          libkf5akonadisearchcore5 (= ${binary:Version}),
          libkf5akonadisearchdebug5 (= ${binary:Version}),
