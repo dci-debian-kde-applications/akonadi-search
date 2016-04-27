@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 16.04.0 amd64 armhf i386
 libKF5AkonadiSearchXapian.so.5 libkf5akonadisearchxapian5 #MINVER#
  (optional=templinst)_ZN6Xapian5QueryC1IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
  (optional=templinst)_ZN6Xapian5QueryC2IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
@@ -31,9 +31,12 @@ libKF5AkonadiSearchXapian.so.5 libkf5akonadisearchxapian5 #MINVER#
  _ZN7Akonadi6Search17XapianQueryParserC1Ev@Base 15.07.90
  _ZN7Akonadi6Search17XapianQueryParserC2Ev@Base 15.07.90
  _ZN7Akonadi6Search17XapianSearchStore11docForQueryEi@Base 15.07.90
+ _ZN7Akonadi6Search17XapianSearchStore11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04.0
+ _ZN7Akonadi6Search17XapianSearchStore11qt_metacastEPKc@Base 16.04.0
  _ZN7Akonadi6Search17XapianSearchStore13finalizeQueryERKN6Xapian5QueryE@Base 15.07.90
  _ZN7Akonadi6Search17XapianSearchStore13toXapianQueryEN6Xapian5Query2opERK5QListINS0_4TermEE@Base 15.07.90
  _ZN7Akonadi6Search17XapianSearchStore13toXapianQueryERKNS0_4TermE@Base 15.07.90
+ _ZN7Akonadi6Search17XapianSearchStore16staticMetaObjectE@Base 16.04.0
  _ZN7Akonadi6Search17XapianSearchStore18applyCustomOptionsERKN6Xapian5QueryERK4QMapI7QString8QVariantE@Base 15.07.90
  _ZN7Akonadi6Search17XapianSearchStore20constructFilterQueryEiii@Base 15.07.90
  _ZN7Akonadi6Search17XapianSearchStore20constructSearchQueryERK7QString@Base 15.07.90
@@ -60,6 +63,7 @@ libKF5AkonadiSearchXapian.so.5 libkf5akonadisearchxapian5 #MINVER#
  _ZN7Akonadi6Search19XapianTermGeneratorC2EPN6Xapian8DocumentE@Base 15.07.90
  _ZNK7Akonadi6Search14XapianDatabase11haveChangesEv@Base 15.07.90
  _ZNK7Akonadi6Search14XapianDocument3docEv@Base 15.07.90
+ _ZNK7Akonadi6Search17XapianSearchStore10metaObjectEv@Base 16.04.0
  _ZNK7Akonadi6Search19XapianTermGenerator8positionEv@Base 15.07.90
  _ZTIN6Xapian12RuntimeErrorE@Base 15.07.90
  _ZTIN6Xapian13DatabaseErrorE@Base 15.07.90
