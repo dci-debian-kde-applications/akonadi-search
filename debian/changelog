@@ -1,8 +1,14 @@
-akonadi-search (15.12.2-1~) UNRELEASED; urgency=medium
+akonadi-search (16.04.0-1~2.gbpd73a56) UNRELEASED; urgency=medium
 
-  * New upstream release (15.12.2).
+  ** SNAPSHOT build @d73a56d510d541c5951f633c99fa86442dad83f6 **
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:52:26 +0100
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 27 Apr 2016 10:14:50 +0200
 
 akonadi-search (15.12.1-1) experimental; urgency=medium
 

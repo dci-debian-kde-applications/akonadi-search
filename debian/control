@@ -5,23 +5,23 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.16.0~),
+               extra-cmake-modules (>= 5.17.0~),
                libboost-dev,
                libkf5akonadi-dev (>= 4:15.12~),
                libkf5akonadimime-dev (>= 4:15.12~),
                libkf5akonadiserver-dev (>= 15.12~),
                libkf5calendarcore-dev (>= 4:15.12~),
-               libkf5config-dev (>= 5.16.0~),
+               libkf5config-dev (>= 5.19.0~),
                libkf5contacts-dev (>= 15.12~),
-               libkf5crash-dev (>= 5.16.0~),
-               libkf5i18n-dev (>= 5.16.0~),
-               libkf5kcmutils-dev (>= 5.16.0~),
+               libkf5crash-dev (>= 5.19.0~),
+               libkf5i18n-dev (>= 5.19.0~),
+               libkf5kcmutils-dev (>= 5.19.0~),
                libkf5mime-dev (>= 15.12~),
-               libkf5runner-dev (>= 5.16.0~),
+               libkf5runner-dev (>= 5.19.0~),
                libxapian-dev,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.2.0~)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/pim/akonadi-search
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-search.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-search.git
@@ -30,16 +30,16 @@ Package: libkf5akonadisearch-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5akonadi-dev,
-         libkf5akonadimime-dev (>= 4.87.0~),
+Depends: libkf5akonadi-dev (>= 4:5.2.0~),
+         libkf5akonadimime-dev (>= 5.2.0~),
          libkf5akonadisearchcore5 (= ${binary:Version}),
          libkf5akonadisearchdebug5 (= ${binary:Version}),
          libkf5akonadisearchpim5 (= ${binary:Version}),
          libkf5akonadiserver-dev (>= 5.0.51~),
-         libkf5calendarcore-dev (>= 4.81.0~),
-         libkf5contacts-dev (>= 4.87.0~),
+         libkf5calendarcore-dev (>= 5.2.0~),
+         libkf5contacts-dev (>= 5.2.0~),
          libkf5coreaddons-dev,
-         libkf5mime-dev (>= 4.85.0~),
+         libkf5mime-dev (>= 5.2.0~),
          qtbase5-dev (>= 5.2.0~),
          ${misc:Depends}
 Description: Akonadi search library - development files
