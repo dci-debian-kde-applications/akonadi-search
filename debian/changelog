@@ -1,5 +1,8 @@
-akonadi-search (16.04.0-1~2.gbpd73a56) UNRELEASED; urgency=medium
+akonadi-search (16.04.0-1~3.gbp36c118) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @36c118455ae888fc609469fd7b249c073d8aef08 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @d73a56d510d541c5951f633c99fa86442dad83f6 **
 
   * Bump Standards-Version to 3.9.8
@@ -8,7 +11,13 @@ akonadi-search (16.04.0-1~2.gbpd73a56) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 27 Apr 2016 10:14:50 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:09:46 +0200
 
 akonadi-search (15.12.1-1) experimental; urgency=medium
 
