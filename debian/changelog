@@ -1,6 +1,6 @@
-akonadi-search (16.04.1-1~1.gbp1c31b0) UNRELEASED; urgency=medium
+akonadi-search (16.04.1-1~2.gbp2ad857) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @1c31b0c1192416fcf6c050c5c93ca06fc7fbe6c5 **
+  ** SNAPSHOT build @2ad8574cc88d8cef5c7bfae79a09681d2af3069b **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @d73a56d510d541c5951f633c99fa86442dad83f6 **
@@ -17,8 +17,9 @@ akonadi-search (16.04.1-1~1.gbp1c31b0) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * UNRELEASED
+  * Add missing build dependency
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 21:07:15 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 11 May 2016 20:29:07 +0200
 
 akonadi-search (15.12.1-1) experimental; urgency=medium
 
