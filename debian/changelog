@@ -1,10 +1,6 @@
-akonadi-search (16.04.1-1~2.gbp2ad857) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @2ad8574cc88d8cef5c7bfae79a09681d2af3069b **
+akonadi-search (16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @d73a56d510d541c5951f633c99fa86442dad83f6 **
-
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Add a .gitattributes file to use dpkg-mergechangelogs
@@ -16,10 +12,9 @@ akonadi-search (16.04.1-1~2.gbp2ad857) UNRELEASED; urgency=medium
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
   * Add missing build dependency
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 11 May 2016 20:29:07 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 17:32:24 +0200
 
 akonadi-search (15.12.1-1) experimental; urgency=medium
 
