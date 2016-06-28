@@ -1,10 +1,9 @@
-akonadi-search (16.04.2-1~1.gbp56c5bc) UNRELEASED; urgency=medium
+akonadi-search (16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @56c5bc07d3b130ab8c0e88603becff5847a3ba5d **
-
+  [ Automatic packaging ]
   * Update symbols files with the buildds results
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 23:40:41 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 08:29:58 +0200
 
 akonadi-search (16.04.1-1) experimental; urgency=medium
 
