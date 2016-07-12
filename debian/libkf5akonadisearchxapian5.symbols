@@ -1,7 +1,7 @@
-# SymbolsHelper-Confirmed: 16.04.1 hppa
+# SymbolsHelper-Confirmed: 16.04.2 hppa
 libKF5AkonadiSearchXapian.so.5 libkf5akonadisearchxapian5 #MINVER#
- (optional=templinst|arch=!hppa)_ZN6Xapian5QueryC1IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
- (optional=templinst|arch=!hppa)_ZN6Xapian5QueryC2IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
+ (optional=templinst|arch=)_ZN6Xapian5QueryC1IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
+ (optional=templinst|arch=)_ZN6Xapian5QueryC2IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
  _ZN7Akonadi6Search14XapianDatabase14deleteDocumentEj@Base 15.07.90
  _ZN7Akonadi6Search14XapianDatabase15replaceDocumentEjRKN6Xapian8DocumentE@Base 15.07.90
  _ZN7Akonadi6Search14XapianDatabase15replaceDocumentEjRKNS0_14XapianDocumentE@Base 15.07.90
