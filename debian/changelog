@@ -1,10 +1,11 @@
-akonadi-search (16.04.3-1~1.gbp3d32ef) UNRELEASED; urgency=medium
+akonadi-search (16.04.3-1~2.gbp811281) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @3d32ef35917707a0af64be2d7c9c961870c480ef **
+  ** SNAPSHOT build @811281ae523bace953c749547b9b4f0fa0b17e9c **
 
   * Update symbols files from buildds logs (16.04.2-2).
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 21:07:33 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 15 Jul 2016 12:15:04 +0200
 
 akonadi-search (16.04.2-2) unstable; urgency=medium
 
