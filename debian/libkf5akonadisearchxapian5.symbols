@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 16.04.2 hppa
+# SymbolsHelper-Confirmed: 16.04.3 amd64 i386
 libKF5AkonadiSearchXapian.so.5 libkf5akonadisearchxapian5 #MINVER#
  (optional=templinst|arch=)_ZN6Xapian5QueryC1IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
  (optional=templinst|arch=)_ZN6Xapian5QueryC2IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
