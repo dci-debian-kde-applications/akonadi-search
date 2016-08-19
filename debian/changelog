@@ -1,11 +1,13 @@
-akonadi-search (16.04.3-1~2.gbp811281) UNRELEASED; urgency=medium
+akonadi-search (16.08.0-1~1.gbp4d9722) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @811281ae523bace953c749547b9b4f0fa0b17e9c **
+  ** SNAPSHOT build @4d97228b6a89e50d8eea9342f748acca5cdc37c6 **
 
   * Update symbols files from buildds logs (16.04.2-2).
   * Update symbols files.
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 15 Jul 2016 12:15:04 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 03:07:16 +0200
 
 akonadi-search (16.04.2-2) unstable; urgency=medium
 
