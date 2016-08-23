@@ -78,6 +78,8 @@ Package: libkf5akonadisearchpim5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: libkf5akonadisearch-bin,
+            libkf5akonadisearch-plugins (= ${binary:Version})
 Description: Akonadi search library
  Library used to search in the Akonadi PIM data server.
 
