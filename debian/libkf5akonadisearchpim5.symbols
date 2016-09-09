@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 16.04.3 amd64 armhf i386
+# SymbolsHelper-Confirmed: 16.08.0 amd64 armhf i386
 libKF5AkonadiSearchPIM.so.5 libkf5akonadisearchpim5 #MINVER#
  (optional=templinst|arch=)_ZN6Xapian5QueryC1IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
  (optional=templinst|arch=)_ZN6Xapian5QueryC2IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
@@ -42,6 +42,18 @@ libKF5AkonadiSearchPIM.so.5 libkf5akonadisearchpim5 #MINVER#
  _ZN7Akonadi6Search3PIM12ContactQueryD0Ev@Base 15.07.90
  _ZN7Akonadi6Search3PIM12ContactQueryD1Ev@Base 15.07.90
  _ZN7Akonadi6Search3PIM12ContactQueryD2Ev@Base 15.07.90
+ _ZN7Akonadi6Search3PIM12IndexedItems11findIndexedER4QSetIxEx@Base 16.08.0
+ _ZN7Akonadi6Search3PIM12IndexedItems11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.08.0
+ _ZN7Akonadi6Search3PIM12IndexedItems11qt_metacastEPKc@Base 16.08.0
+ _ZN7Akonadi6Search3PIM12IndexedItems12indexedItemsEx@Base 16.08.0
+ _ZN7Akonadi6Search3PIM12IndexedItems16staticMetaObjectE@Base 16.08.0
+ _ZN7Akonadi6Search3PIM12IndexedItems21findIndexedInDatabaseER4QSetIxExRK7QString@Base 16.08.0
+ _ZN7Akonadi6Search3PIM12IndexedItems23setOverrideDbPrefixPathERK7QString@Base 16.08.0
+ _ZN7Akonadi6Search3PIM12IndexedItemsC1EP7QObject@Base 16.08.0
+ _ZN7Akonadi6Search3PIM12IndexedItemsC2EP7QObject@Base 16.08.0
+ _ZN7Akonadi6Search3PIM12IndexedItemsD0Ev@Base 16.08.0
+ _ZN7Akonadi6Search3PIM12IndexedItemsD1Ev@Base 16.08.0
+ _ZN7Akonadi6Search3PIM12IndexedItemsD2Ev@Base 16.08.0
  _ZN7Akonadi6Search3PIM14ResultIterator2idEv@Base 15.07.90
  _ZN7Akonadi6Search3PIM14ResultIterator4nextEv@Base 15.07.90
  _ZN7Akonadi6Search3PIM14ResultIteratorC1ERKS2_@Base 15.07.90
@@ -85,6 +97,13 @@ libKF5AkonadiSearchPIM.so.5 libkf5akonadisearchpim5 #MINVER#
  _ZNK7Akonadi6Search3PIM10EmailQuery5limitEv@Base 15.07.90
  _ZNK7Akonadi6Search3PIM12ContactQuery13matchCriteriaEv@Base 15.07.90
  _ZNK7Akonadi6Search3PIM12ContactQuery5limitEv@Base 15.07.90
+ _ZNK7Akonadi6Search3PIM12IndexedItems10metaObjectEv@Base 16.08.0
+ _ZNK7Akonadi6Search3PIM12IndexedItems17emailIndexingPathEv@Base 16.08.0
+ _ZNK7Akonadi6Search3PIM12IndexedItems19contactIndexingPathEv@Base 16.08.0
+ _ZNK7Akonadi6Search3PIM12IndexedItems20akonotesIndexingPathEv@Base 16.08.0
+ _ZNK7Akonadi6Search3PIM12IndexedItems20calendarIndexingPathEv@Base 16.08.0
+ _ZNK7Akonadi6Search3PIM12IndexedItems22collectionIndexingPathEv@Base 16.08.0
+ _ZNK7Akonadi6Search3PIM12IndexedItems25emailContactsIndexingPathEv@Base 16.08.0
  _ZNK7Akonadi6Search3PIM9NoteQuery5limitEv@Base 15.07.90
  _ZTIN6Xapian12RuntimeErrorE@Base 15.07.90
  _ZTIN6Xapian13DatabaseErrorE@Base 15.07.90
@@ -93,6 +112,7 @@ libKF5AkonadiSearchPIM.so.5 libkf5akonadisearchpim5 #MINVER#
  _ZTIN6Xapian5ErrorE@Base 15.07.90
  _ZTIN7Akonadi6Search3PIM10EmailQueryE@Base 15.07.90
  _ZTIN7Akonadi6Search3PIM12ContactQueryE@Base 15.07.90
+ _ZTIN7Akonadi6Search3PIM12IndexedItemsE@Base 16.08.0
  _ZTIN7Akonadi6Search3PIM15CollectionQueryE@Base 15.07.90
  _ZTIN7Akonadi6Search3PIM5QueryE@Base 15.07.90
  _ZTIN7Akonadi6Search3PIM9NoteQueryE@Base 15.07.90
@@ -103,11 +123,13 @@ libKF5AkonadiSearchPIM.so.5 libkf5akonadisearchpim5 #MINVER#
  _ZTSN6Xapian5ErrorE@Base 15.07.90
  _ZTSN7Akonadi6Search3PIM10EmailQueryE@Base 15.07.90
  _ZTSN7Akonadi6Search3PIM12ContactQueryE@Base 15.07.90
+ _ZTSN7Akonadi6Search3PIM12IndexedItemsE@Base 16.08.0
  _ZTSN7Akonadi6Search3PIM15CollectionQueryE@Base 15.07.90
  _ZTSN7Akonadi6Search3PIM5QueryE@Base 15.07.90
  _ZTSN7Akonadi6Search3PIM9NoteQueryE@Base 15.07.90
  _ZTVN7Akonadi6Search3PIM10EmailQueryE@Base 15.07.90
  _ZTVN7Akonadi6Search3PIM12ContactQueryE@Base 15.07.90
+ _ZTVN7Akonadi6Search3PIM12IndexedItemsE@Base 16.08.0
  _ZTVN7Akonadi6Search3PIM15CollectionQueryE@Base 15.07.90
  _ZTVN7Akonadi6Search3PIM5QueryE@Base 15.07.90
  _ZTVN7Akonadi6Search3PIM9NoteQueryE@Base 15.07.90
