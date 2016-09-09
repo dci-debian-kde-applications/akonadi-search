@@ -31,16 +31,16 @@ Package: libkf5akonadisearch-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5akonadi-dev (>= 4:5.3.0~),
-         libkf5akonadimime-dev (>= 5.3.0~),
+Depends: libkf5akonadi-dev (>= 4:5.3.1~),
+         libkf5akonadimime-dev (>= 5.3.1~),
          libkf5akonadisearchcore5 (= ${binary:Version}),
          libkf5akonadisearchdebug5 (= ${binary:Version}),
          libkf5akonadisearchpim5 (= ${binary:Version}),
          libkf5akonadiserver-dev (>= 5.0.51~),
-         libkf5calendarcore-dev (>= 5.3.0~),
-         libkf5contacts-dev (>= 5.3.0~),
+         libkf5calendarcore-dev (>= 5.3.1~),
+         libkf5contacts-dev (>= 5.3.1~),
          libkf5coreaddons-dev,
-         libkf5mime-dev (>= 5.3.0~),
+         libkf5mime-dev (>= 5.3.1~),
          qtbase5-dev (>= 5.2.0~),
          ${misc:Depends}
 Description: Akonadi search library - development files
