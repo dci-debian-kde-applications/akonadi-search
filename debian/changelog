@@ -1,5 +1,18 @@
-akonadi-search (16.04.2-3~) UNRELEASED; urgency=medium
+akonadi-search (16.08.1-1~2.gbp8d3e64) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @8d3e6427efd777aef1592d87f3c8ce3becbfda66 **
+
+  [ Automatic packaging ]
+  * Update symbols files from buildds logs (16.04.2-2).
+  * Update symbols files.
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Add recommends for the akonadi indexer in the library that kdepim links against
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 10 Sep 2016 19:07:53 +0200
+
+akonadi-search (16.04.2-3~) UNRELEASED; urgency=medium
 
   [ Sandro Knauß ]
   * Added fix for Xapian 1.4 (Closes: #839990)
