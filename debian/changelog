@@ -1,3 +1,8 @@
+akonadi-search (16.04.2-3~) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Oct 2016 11:18:35 +0200
+
 akonadi-search (16.04.2-2) unstable; urgency=medium
 
   * Release to unstable.
