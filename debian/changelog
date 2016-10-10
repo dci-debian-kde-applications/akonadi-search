@@ -1,5 +1,4 @@
-akonadi-search (16.04.2-3~) UNRELEASED; urgency=medium
-
+akonadi-search (16.04.2-3) unstable; urgency=medium
 
   [ Sandro Knauß ]
   * Added fix for Xapian 1.4 (Closes: #839990)
@@ -7,7 +6,7 @@ akonadi-search (16.04.2-3~) UNRELEASED; urgency=medium
     (got from upstream)
   * Add myself to Uploades.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Oct 2016 11:18:35 +0200
+ -- Sandro Knauß <hefee@debian.org>  Mon, 10 Oct 2016 18:58:37 +0200
 
 akonadi-search (16.04.2-2) unstable; urgency=medium
 
