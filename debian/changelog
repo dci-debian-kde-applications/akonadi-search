@@ -1,3 +1,17 @@
+akonadi-search (16.08.1-1~3.gbp08456b) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @08456b90d7f342fc5ea3f58f0470df6e7d667a04 **
+
+  [ Automatic packaging ]
+  * Update symbols files from buildds logs (16.04.2-2).
+  * Update symbols files.
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Add recommends for the akonadi indexer in the library that kdepim links against
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 10 Oct 2016 18:09:13 +0200
+
 akonadi-search (16.04.2-3) unstable; urgency=medium
 
   [ Sandro Knauß ]
