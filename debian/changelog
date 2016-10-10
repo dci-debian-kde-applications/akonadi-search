@@ -1,8 +1,8 @@
-akonadi-search (16.04.3-1~2.gbp811281) UNRELEASED; urgency=medium
+akonadi-search (16.04.3-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Update symbols files from buildds logs (16.04.2-2).
-  * Update symbols files.
+  * Update build-deps and deps with the info from cmake
 
   [ Sandro Knauß ]
   * Added fix for Xapian 1.4 (Closes: #839990)
@@ -10,8 +10,7 @@ akonadi-search (16.04.3-1~2.gbp811281) UNRELEASED; urgency=medium
     (got from upstream)
   * Add myself to Uploades.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 15 Jul 2016 12:15:04 +0200
-
+ -- Sandro Knauß <hefee@debian.org>  Mon, 10 Oct 2016 19:38:04 +0200
 
 akonadi-search (16.04.2-2) unstable; urgency=medium
 
