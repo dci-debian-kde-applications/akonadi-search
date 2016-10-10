@@ -8,8 +8,10 @@ akonadi-search (16.04.3-1~2.gbp811281) UNRELEASED; urgency=medium
   * Added fix for Xapian 1.4 (Closes: #839990)
     fix_for_xapian_1.4.patch
     (got from upstream)
+  * Add myself to Uploades.
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 15 Jul 2016 12:15:04 +0200
+
 
 akonadi-search (16.04.2-2) unstable; urgency=medium
 
