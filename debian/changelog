@@ -2,14 +2,24 @@ akonadi-search (16.08.1-1~1.gbp5e6dbc) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @5e6dbc9b915910faad6969401ce6f6e16e492046 **
 
-  * Update symbols files from buildds logs (16.04.2-2).
-  * Update symbols files.
-  * Update build-deps and deps with the info from cmake
-  * Update symbols files.
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 14:15:01 +0200
+
+akonadi-search (16.04.3-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update symbols files from buildds logs (16.04.2-2).
+  * Update build-deps and deps with the info from cmake
+
+  [ Sandro Knauß ]
+  * Added fix for Xapian 1.4 (Closes: #839990)
+    fix_for_xapian_1.4.patch
+    (got from upstream)
+  * Add myself to Uploades.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 10 Oct 2016 19:38:04 +0200
 
 akonadi-search (16.04.2-2) unstable; urgency=medium
 
