@@ -1,11 +1,14 @@
-akonadi-search (16.08.1-1~1.gbp5e6dbc) UNRELEASED; urgency=medium
+akonadi-search (16.08.1-1~4.gbpeb6cc3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @5e6dbc9b915910faad6969401ce6f6e16e492046 **
+  ** SNAPSHOT build @eb6cc3e980c8dabf40275104fe741f699e7dfae9 **
 
-  * Update build-deps and deps with the info from cmake
+  [ Automatic packaging ]
   * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 14:15:01 +0200
+  [ Maximiliano Curia ]
+  * Add recommends for the akonadi indexer in the library that kdepim links against
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 10 Oct 2016 19:55:32 +0200
 
 akonadi-search (16.04.3-1) unstable; urgency=medium
 
