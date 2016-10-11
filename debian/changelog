@@ -1,6 +1,6 @@
-akonadi-search (16.08.1-1~4.gbpeb6cc3) UNRELEASED; urgency=medium
+akonadi-search (16.08.1-1~5.gbpe23585) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @eb6cc3e980c8dabf40275104fe741f699e7dfae9 **
+  ** SNAPSHOT build @e235856d02d966475e899934630b5147e4a6f887 **
 
   [ Automatic packaging ]
   * Update symbols files.
@@ -8,7 +8,20 @@ akonadi-search (16.08.1-1~4.gbpeb6cc3) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Add recommends for the akonadi indexer in the library that kdepim links against
 
- -- Sandro Knauß <hefee@debian.org>  Mon, 10 Oct 2016 19:55:32 +0200
+  [ Sandro Knauß ]
+  * New changelog entry
+  * Added patch for Xapian 1.4 (Closes: #839990)
+  * Add myself to Uploaders
+  * Release to unstable
+  * Added patch for Xapian 1.4 (Closes: #839990)
+  * Add myself to Uploaders
+  * Revert "Release to unstable"
+  * Revert "Add myself to Uploaders"
+  * Revert "Added patch for Xapian 1.4"
+  * Revert "New changelog entry"
+  * Release to unstable
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 11 Oct 2016 10:07:30 +0200
 
 akonadi-search (16.04.3-1) unstable; urgency=medium
 
