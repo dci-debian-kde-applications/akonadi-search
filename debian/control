@@ -30,7 +30,6 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-search.git
 Package: libkf5akonadisearch-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
 Depends: libkf5akonadi-dev (>= 4:5.3.2~),
          libkf5akonadimime-dev (>= 5.3.2~),
          libkf5akonadisearchcore5 (= ${binary:Version}),
