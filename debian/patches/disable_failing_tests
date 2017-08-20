@@ -7,10 +7,10 @@ Subject: disable_failing_tests
  agent/autotests/CMakeLists.txt | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
-diff --git a/agent/autotests/CMakeLists.txt b/agent/autotests/CMakeLists.txt
-index e412fb5..4d440dc 100644
---- a/agent/autotests/CMakeLists.txt
-+++ b/agent/autotests/CMakeLists.txt
+Index: akonadi-search/agent/autotests/CMakeLists.txt
+===================================================================
+--- akonadi-search.orig/agent/autotests/CMakeLists.txt
++++ akonadi-search/agent/autotests/CMakeLists.txt
 @@ -53,8 +53,8 @@ set(scheduler_SRCS
      ${indexer_SRCS}
  )
@@ -20,5 +20,5 @@ index e412fb5..4d440dc 100644
 +# add_akonadi_isolated_test_advanced(schedulertest.cpp "${scheduler_SRCS}" "${indexer_LIBS}")
 +# add_akonadi_isolated_test_advanced(collectionindexingjobtest.cpp "${scheduler_SRCS}" "${indexer_LIBS}")
  
- set(query_SRCS
-     ../../lib/query.cpp
+ 
+ if(NOT WIN32)

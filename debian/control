@@ -50,6 +50,8 @@ Description: Akonadi search library - development files
 Package: libkf5akonadisearch-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: Akonadi search library - runtime binaries
  Library used to search in the Akonadi PIM data server.
  .
