@@ -3,49 +3,29 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>, Sandro Knauß <hefee@debian.org>
-Build-Depends: cmake (>= 2.8.12~),
+Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.23.0~),
+               extra-cmake-modules (>= 5.35.0~),
                libboost-dev,
                libical-dev,
                libkf5akonadi-dev (>= 4:15.12~),
                libkf5akonadimime-dev (>= 4:15.12~),
                libkf5akonadiserver-dev (>= 15.12~),
                libkf5calendarcore-dev (>= 4:15.12~),
-               libkf5config-dev (>= 5.23.0~),
+               libkf5config-dev (>= 5.35.0~),
                libkf5contacts-dev (>= 15.12~),
-               libkf5crash-dev (>= 5.23.0~),
-               libkf5i18n-dev (>= 5.23.0~),
-               libkf5kcmutils-dev (>= 5.23.0~),
+               libkf5crash-dev (>= 5.35.0~),
+               libkf5i18n-dev (>= 5.35.0~),
+               libkf5kcmutils-dev (>= 5.35.0~),
                libkf5mime-dev (>= 15.12~),
-               libkf5runner-dev (>= 5.23.0~),
+               libkf5runner-dev (>= 5.35.0~),
                libxapian-dev,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.2.0~)
+               qtbase5-dev (>= 5.7.0~),
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/kde/pim/akonadi-search
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-search.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-search.git
-
-Package: libkf5akonadisearch-dev
-Section: libdevel
-Architecture: any
-Depends: libkf5akonadi-dev (>= 4:5.3.2~),
-         libkf5akonadimime-dev (>= 5.3.2~),
-         libkf5akonadisearchcore5 (= ${binary:Version}),
-         libkf5akonadisearchdebug5 (= ${binary:Version}),
-         libkf5akonadisearchpim5 (= ${binary:Version}),
-         libkf5akonadiserver-dev (>= 5.0.51~),
-         libkf5calendarcore-dev (>= 5.3.2~),
-         libkf5contacts-dev (>= 5.3.2~),
-         libkf5coreaddons-dev,
-         libkf5mime-dev (>= 5.3.2~),
-         qtbase5-dev (>= 5.2.0~),
-         ${misc:Depends}
-Description: Akonadi search library - development files
- Library used to search in the Akonadi PIM data server.
- .
- This package contains the development files.
 
 Package: libkf5akonadisearch-bin
 Architecture: any
@@ -57,15 +37,6 @@ Description: Akonadi search library - runtime binaries
  .
  This package contains runtime binaries.
 
-Package: libkf5akonadisearch-plugins
-Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Akonadi search library - runtime plugins
- Library used to search in the Akonadi PIM data server.
- .
- This package contains runtime plugins.
-
 Package: libkf5akonadisearch-data
 Architecture: all
 Multi-Arch: foreign
@@ -75,30 +46,43 @@ Description: Akonadi search library - data files
  .
  This package contains data files.
 
-Package: libkf5akonadisearchpim5
+Package: libkf5akonadisearch-dev
+Section: libdevel
 Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: libkf5akonadisearch-bin,
-            libkf5akonadisearch-plugins (= ${binary:Version})
-Description: Akonadi search library
+Depends: libkf5akonadi-dev (>= 4:5.6.0~),
+         libkf5akonadimime-dev (>= 5.6.0~),
+         libkf5akonadisearchcore5 (= ${binary:Version}),
+         libkf5akonadisearchdebug5 (= ${binary:Version}),
+         libkf5akonadisearchpim5 (= ${binary:Version}),
+         libkf5akonadiserver-dev (>= 5.0.51~),
+         libkf5calendarcore-dev (>= 4:5.6.0~),
+         libkf5contacts-dev (>= 5.6.0~),
+         libkf5coreaddons-dev,
+         libkf5mime-dev (>= 5.6.0~),
+         qtbase5-dev (>= 5.7.0~),
+         ${misc:Depends},
+Description: Akonadi search library - development files
  Library used to search in the Akonadi PIM data server.
+ .
+ This package contains the development files.
 
-Package: libkf5akonadisearchxapian5
+Package: libkf5akonadisearch-plugins
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Akonadi search xapian library
- Internal library used to search in the Akonadi PIM data server.
+Description: Akonadi search library - runtime plugins
+ Library used to search in the Akonadi PIM data server.
+ .
+ This package contains runtime plugins.
 
 Package: libkf5akonadisearchcore5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5akonadisearch-data (>= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Recommends: libkf5akonadisearch-bin,
-            libkf5akonadisearch-plugins (= ${binary:Version})
+            libkf5akonadisearch-plugins (= ${binary:Version}),
 Description: Akonadi search core library
  Internal library used to search in the Akonadi PIM data server.
 
@@ -107,4 +91,20 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Akonadi search debug library
+ Internal library used to search in the Akonadi PIM data server.
+
+Package: libkf5akonadisearchpim5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: libkf5akonadisearch-bin,
+            libkf5akonadisearch-plugins (= ${binary:Version}),
+Description: Akonadi search library
+ Library used to search in the Akonadi PIM data server.
+
+Package: libkf5akonadisearchxapian5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Akonadi search xapian library
  Internal library used to search in the Akonadi PIM data server.
