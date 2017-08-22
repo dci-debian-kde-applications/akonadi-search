@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5AkonadiSearchCore.so.5 libkf5akonadisearchcore5 #MINVER#
  _ZN7Akonadi6Search11SearchStore11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi6Search11SearchStore11qt_metacastEPKc@Base 15.07.90
@@ -23,6 +23,7 @@ libKF5AkonadiSearchCore.so.5 libkf5akonadisearchcore5 #MINVER#
  _ZN7Akonadi6Search14ResultIteratorC2Ev@Base 15.07.90
  _ZN7Akonadi6Search14ResultIteratorD1Ev@Base 15.07.90
  _ZN7Akonadi6Search14ResultIteratorD2Ev@Base 15.07.90
+ _ZN7Akonadi6Search14ResultIteratoraSERKS1_@Base 4:17.08.0
  _ZN7Akonadi6Search4Term10addSubTermERKS1_@Base 15.07.90
  _ZN7Akonadi6Search4Term11setNegationEb@Base 15.07.90
  _ZN7Akonadi6Search4Term11setPropertyERK7QString@Base 15.07.90

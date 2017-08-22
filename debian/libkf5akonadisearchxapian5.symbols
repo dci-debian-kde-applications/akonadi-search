@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 16.08.1 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5AkonadiSearchXapian.so.5 libkf5akonadisearchxapian5 #MINVER#
  (optional=templinst|arch=)_ZN6Xapian5QueryC1IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
  (optional=templinst|arch=)_ZN6Xapian5QueryC2IN5QListIS0_E8iteratorEEENS0_2opET_S6_j@Base 15.07.90
@@ -65,6 +65,7 @@ libKF5AkonadiSearchXapian.so.5 libkf5akonadisearchxapian5 #MINVER#
  _ZNK7Akonadi6Search14XapianDocument3docEv@Base 15.07.90
  _ZNK7Akonadi6Search17XapianSearchStore10metaObjectEv@Base 16.04.0
  _ZNK7Akonadi6Search19XapianTermGenerator8positionEv@Base 15.07.90
+ (optional=templinst)_ZNSt11this_thread9sleep_forIlSt5ratioILl1ELl1000EEEEvRKNSt6chrono8durationIT_T0_EE@Base 4:17.08.0
  _ZTIN6Xapian12RuntimeErrorE@Base 15.07.90
  _ZTIN6Xapian13DatabaseErrorE@Base 15.07.90
  _ZTIN6Xapian16DocNotFoundErrorE@Base 15.07.90
