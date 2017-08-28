@@ -74,6 +74,7 @@ Description: Akonadi search library - runtime plugins
  Library used to search in the Akonadi PIM data server.
  .
  This package contains runtime plugins.
+Breaks: kmail (<< 4:17.08)
 
 Package: libkf5akonadisearchcore5
 Architecture: any
@@ -92,6 +93,7 @@ Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Akonadi search debug library
  Internal library used to search in the Akonadi PIM data server.
+Breaks: kaddressbook (<< 4:17.08), kmail (<< 4:17.08), knotes (<< 4:17.08)
 
 Package: libkf5akonadisearchpim5
 Architecture: any
@@ -101,6 +103,10 @@ Recommends: libkf5akonadisearch-bin,
             libkf5akonadisearch-plugins (= ${binary:Version}),
 Description: Akonadi search library
  Library used to search in the Akonadi PIM data server.
+Breaks: knotes (<< 4:17.08),
+        korganizer (<< 4:17.08),
+        libkf5libkdepim5 (<< 4:17.08),
+        libkf5messagelist5 (<< 4:17.08),
 
 Package: libkf5akonadisearchxapian5
 Architecture: any
