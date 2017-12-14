@@ -22,7 +22,7 @@ Build-Depends: cmake (>= 3.0~),
                libxapian-dev,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.7.0~),
-Standards-Version: 4.0.1
+Standards-Version: 4.1.2
 Homepage: https://projects.kde.org/projects/kde/pim/akonadi-search
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-search.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-search.git
